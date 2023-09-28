@@ -5,6 +5,7 @@ require "user.colorscheme"
 
 require "user.alpha"
 require "user.bufferline"
+require "user.cmp"
 require "user.gitsigns"
 require "user.indentline"
 require "user.lualine"
