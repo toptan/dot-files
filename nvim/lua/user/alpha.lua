@@ -35,7 +35,7 @@ dashboard.section.header.val = {
 [[|      888   888    d~ o888    LS |]],
 [[|_________________________________|]],
 [[                                   ]],
-[[     "He will join us or die.      ]],
+[[     "He will join us or die."     ]],
 }
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
