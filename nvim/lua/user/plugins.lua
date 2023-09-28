@@ -58,6 +58,9 @@ return packer.startup(function(use)
     -- Git stuff
     use "lewis6991/gitsigns.nvim"
 
+    -- Treesitter
+    use { "nvim-treesitter/nvim-treesitter", commit = "226c1475a46a2ef6d840af9caa0117a439465500", }
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then
