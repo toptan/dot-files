@@ -3,6 +3,7 @@ require "user.keymaps"
 require "user.plugins"
 require "user.colorscheme"
 
+require "user.alpha"
 require "user.bufferline"
 require "user.gitsigns"
 require "user.indentline"

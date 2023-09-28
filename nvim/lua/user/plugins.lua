@@ -51,6 +51,7 @@ return packer.startup(function(use)
     use { "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb40cc00fc5d6074d7569fb37197705e7f6" }
     use "akinsho/bufferline.nvim"
     use "moll/vim-bbye"
+    use "goolord/alpha-nvim"
 
     -- Color schemes
     use "folke/tokyonight.nvim"
