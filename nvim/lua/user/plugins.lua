@@ -71,6 +71,9 @@ return packer.startup(function(use)
     -- Git stuff
     use "lewis6991/gitsigns.nvim"
 
+    -- Telescope
+    use "nvim-telescope/telescope.nvim"
+
     -- Treesitter
     use { "nvim-treesitter/nvim-treesitter", commit = "226c1475a46a2ef6d840af9caa0117a439465500", }
 
