@@ -44,6 +44,8 @@ return packer.startup(function(use)
     use "wbthomason/packer.nvim" -- Have packer manage itself
     use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
     use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+    use "folke/which-key.nvim"
+    use "nvim-lualine/lualine.nvim"
 
     -- Color schemes
     use "folke/tokyonight.nvim" 
