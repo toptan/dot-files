@@ -7,6 +7,9 @@ local servers = {
     -- "bashls",
     "jsonls",
     -- "yamlls",
+    "bashls",
+    "clangd",
+    "cmake",
 }
 
 local settings = {
