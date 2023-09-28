@@ -53,7 +53,10 @@ return packer.startup(function(use)
     use "moll/vim-bbye"
 
     -- Color schemes
-    use "folke/tokyonight.nvim" 
+    use "folke/tokyonight.nvim"
+
+    -- Git stuff
+    use "lewis6991/gitsigns.nvim"
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
