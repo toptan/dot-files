@@ -59,6 +59,9 @@ return packer.startup(function(use)
 	use("ahmedkhalf/project.nvim")
 
 	-- Color schemes
+    use("lunarvim/onedarker.nvim")
+    use("lunarvim/darkplus.nvim")
+    use("lunarvim/lunar.nvim")
 	use("folke/tokyonight.nvim")
 
 	-- Completion
