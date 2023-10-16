@@ -43,3 +43,5 @@ end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
+
+vim.g.python3_host_prog = "/opt/homebrew/bin/python3"
