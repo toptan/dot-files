@@ -80,6 +80,10 @@ M.on_attach = function(client, bufnr)
         client.server_capabilities.documentFormattingProvider = false
     end
 
+    if client.name == "clangd" then
+        vim.api.nvim_buf_set_keymap(bufnr, "n", "<F3>", "<cmd>ClangdSwitchSourceHeader<cr>", { noremap = true, silent = true })
+    end
+
     lsp_keymaps(bufnr)
     local status_ok, illuminate = pcall(require, "illuminate")
     if not status_ok then
