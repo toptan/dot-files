@@ -1,9 +1,14 @@
 local colorscheme = "everforest"
--- local colorscheme = "tokyonight-night"
 
 if colorscheme == "everforest" then
-    vim.g.everforest_background = "hard"
-    vim.g.everforest_better_performance = 1
+    local status_ok, everforest = pcall(require, "everforest")
+    if status_ok then
+        everforest.setup({
+            background = "medium",
+            transparent_background_level = 1,
+            ui_contrast = "high",
+        })
+    end
 end
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
