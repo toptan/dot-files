@@ -10,7 +10,7 @@ local servers = {
     -- "bashls",
     "clangd",
     "cmake",
-    "bufls",
+    -- "bufls",
 }
 
 local settings = {
