@@ -1,15 +1,15 @@
 local servers = {
-    "lua_ls",
+    -- "lua_ls",
     -- "cssls",
     -- "html",
     -- "tsserver",
-    "pyright",
+    -- "pyright",
     -- "bashls",
     -- "jsonls",
     -- "yamlls",
     -- "bashls",
     "clangd",
-    "cmake",
+    -- "cmake",
     -- "bufls",
 }
 
@@ -29,7 +29,7 @@ local settings = {
 require("mason").setup(settings)
 require("mason-lspconfig").setup({
     ensure_installed = servers,
-    automatic_installation = true,
+    automatic_installation = false,
 })
 
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
