@@ -1,4 +1,10 @@
-return {
+local M = { 
     filetypes = { "c", "cpp", "objc", "objcpp", "cuda" },
-    cmd = { "clangd16" },
 }
+
+if vim.fn.has('freebsd') == 1 then
+    M.cmd = { "clangd16" }
+end
+
+return M
+
