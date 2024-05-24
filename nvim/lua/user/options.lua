@@ -44,8 +44,8 @@ end
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 
-if vim.fn.has('macunix') == 1 then
-    vim.g.python3_host_prog = "/opt/homebrew/bin/python3"
-elseif vim.fn.has('linux') == 1 then
-    vim.g.python3_host_prog = "/usr/bin/python3"
-end
+-- if vim.fn.has('macunix') == 1 then
+    -- vim.g.python3_host_prog = "/opt/homebrew/bin/python3"
+-- elseif vim.fn.has('linux') == 1 then
+    -- vim.g.python3_host_prog = "/usr/bin/python3"
+-- end

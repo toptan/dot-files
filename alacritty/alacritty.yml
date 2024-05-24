@@ -137,12 +137,20 @@ schemes:
 # Apply
 colors: *everforest_dark_hard
 
+scrolling:
+  history: 10000
+
+dimensions:
+  columns: 132
+  lines: 50
+
 window:
-  opacity: 0.85
+  opacity: 0.95
 
 font:
   normal:
-    family: IosevkaTerm Nerd Font
-  size: 14
+    family: Iosevka Nerd Font
+    # style: Regular
+  size: 18
   offset:
     y: 0
