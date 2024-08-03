@@ -4,7 +4,11 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
-vim.g.python3_host_prog = "/usr/bin/python3"
+if vim.fn.has('macunix') then
+  vim.g.python3_host_prog = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
+else
+  vim.g.python3_host_prog = "/usr/bin/python3"
+end
 
 lvim.colorscheme = "dayfox"
 
