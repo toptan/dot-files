@@ -10,7 +10,7 @@ else
   vim.g.python3_host_prog = "/usr/bin/python3"
 end
 
-lvim.colorscheme = "dayfox"
+lvim.colorscheme = "nightfox"
 
 lvim.plugins = {
   { "lunarvim/colorschemes" },
