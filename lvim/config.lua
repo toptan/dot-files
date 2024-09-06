@@ -4,51 +4,27 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
-if vim.fn.has('macunix') then
-  vim.g.python3_host_prog = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
-else
+-- Set python executable based on the operating system.
+if vim.loop.os_uname()["sysname"] == "Darwin" then
+  vim.g.python3_host_prog =
+  "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
+elseif vim.loop.os_uname()["sysname"] == "Linux" then
   vim.g.python3_host_prog = "/usr/bin/python3"
+elseif vim.loop.os_uname()["sysname"] == "Windows_NT" then
+  vim.g.python3_host_prog =
+  "C:/Users/ToplicaTanaskovic/AppData/Local/Programs/Python/Python312/python.EXE"
 end
 
-lvim.colorscheme = "nightfox"
+lvim.colorscheme = "kanagawa-dragon"
 
 lvim.plugins = {
   { "lunarvim/colorschemes" },
   { "EdenEast/nightfox.nvim" },
+  { "rebelot/kanagawa.nvim" },
 }
 
 lvim.builtin.alpha.dashboard.section.header.val = {
-  [[ _________________________________ ]],
-  [[|:::::::::::::;;::::::::::::::::::|]],
-  [[|:::::::::::'~||~~~``:::::::::::::|]],
-  [[|::::::::'   .':     o`:::::::::::|]],
-  [[|:::::::' oo | |o  o    ::::::::::|]],
-  [[|::::::: 8  .'.'    8 o  :::::::::|]],
-  [[|::::::: 8  | |     8    :::::::::|]],
-  [[|::::::: _._| |_,...8    :::::::::|]],
-  [[|::::::'~--.   .--. `.   `::::::::|]],
-  [[|:::::'     =8     ~  \ o ::::::::|]],
-  [[|::::'       8._ 88.   \ o::::::::|]],
-  [[|:::'   __. ,.ooo~~.    \ o`::::::|]],
-  [[|:::   . -. 88`78o/:     \  `:::::|]],
-  [[|::'     /. o o \ ::      \88`::::|]],
-  [[|:;     o|| 8 8 |d.        `8 `:::|]],
-  [[|:.       - ^ ^ -'           `-`::|]],
-  [[|::.                          .:::|]],
-  [[|:::::.....           ::'     ``::|]],
-  [[|::::::::-'`-        88          `|]],
-  [[|:::::-'.          -       ::     |]],
-  [[|:-~. . .                   :     |]],
-  [[| .. .   ..:   o:8      88o       |]],
-  [[|. .     :::   8:P     d888. . .  |]],
-  [[|.   .   :88   88      888'  . .  |]],
-  [[|   o8  d88P . 88   ' d88P   ..   |]],
-  [[|  88P  888   d8P   ' 888         |]],
-  [[|   8  d88P.'d:8  .- dP~ o8       |]],
-  [[|      888   888    d~ o888    LS |]],
-  [[|_________________________________|]],
-  [[                                   ]],
-  [[     "He will join us or die."     ]],
+  [[Where there is a shell, there is a way.]]
 }
 
 lvim.builtin.alpha.dashboard.section.footer.val = {
