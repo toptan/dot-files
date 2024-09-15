@@ -3,7 +3,7 @@ import = [
 ]
 
 [font]
-size = 18
+size = 20
 
 [font.normal]
 family = "Iosevka Nerd Font"
