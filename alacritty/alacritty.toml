@@ -6,9 +6,11 @@ import = [
 size = 20
 
 [font.normal]
-# family = "JetBrainsMono Nerd Font"
 family = "IosevkaTerm Nerd Font Propo"
 style = "Medium"
+
+[font.italic]
+style = "Medium Oblique"
 
 [font.offset]
 y = 0
