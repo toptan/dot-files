@@ -1,12 +1,13 @@
+[general]
 import = [
-    "~/.config/alacritty/tokyo-night-night.toml"
+    "~/.config/alacritty/kanagawa_wave.toml"
 ]
 
 [font]
-size = 22
+size = 14
 
 [font.normal]
-family = "IosevkaTerm Nerd Font Propo"
+family = "IosevkaTerm Nerd Font"
 style = "Medium"
 
 [font.italic]
