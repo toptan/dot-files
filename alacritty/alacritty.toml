@@ -4,10 +4,10 @@ import = [
 ]
 
 [font]
-size = 14
+size = 20
 
 [font.normal]
-family = "IosevkaTerm Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Medium"
 
 [font.italic]
