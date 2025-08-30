@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/tokyo_night_enhanced.toml"
+  "~/.config/alacritty/tokyo_night_enhanced.toml",
 ]
 
 [font]
@@ -26,4 +26,3 @@ history = 10000
 opacity = 1
 startup_mode = "Maximized"
 option_as_alt = "Both"
-
