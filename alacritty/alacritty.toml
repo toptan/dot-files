@@ -1,17 +1,18 @@
-[general]
-import = [
-  "~/.config/alacritty/tokyo_night_enhanced.toml",
-]
+# [general]
+# import = [
+#   "~/.config/alacritty/tokyo_night_enhanced.toml",
+# ]
 
 [font]
-size = 20
+size = 14
 
 [font.normal]
-family = "Iosevka Nerd Font"
-style = "Medium"
+# family = "Iosevka Nerd Font"
+family = "JetBrainsMono Nerd Font"
+# style = "Regular"
 
-[font.italic]
-style = "Medium Oblique"
+# [font.italic]
+# style = "Medium Oblique"
 
 [font.offset]
 y = 0
