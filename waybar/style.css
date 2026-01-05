@@ -1,0 +1,77 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: ZedMono Nerd Font, Iosevka, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(45, 43, 60, 0.75);
+    border-bottom: 2px solid rgba(255, 0, 0, 0.25);
+    color: #dfdfdf;
+}
+
+box.module {
+    margin: 0px 5px;
+    padding: 3px 0;
+}
+
+#clock {
+    background: rgba(45, 43, 60, 0.75);
+    padding: 0px 10px;
+    margin-bottom: 2px;
+}
+
+#network {
+    background: rgba(68, 65, 90, 0.75);
+    padding: 0px 10px;
+    margin-bottom: 2px;
+}
+
+#cpu, #memory {
+    background: rgba(45, 43, 60, 0.75);
+    padding: 0px 10px;
+    margin-bottom: 2px;
+}
+
+#language {
+    background: rgba(68, 65, 90, 0.75);
+    padding: 0px 10px;
+    margin-bottom: 2px;
+}
+
+#tray {
+    background: rgba(45, 43, 60, 0.75);
+    padding: 0px 10px;
+    margin-bottom: 2px;
+}
+
+window#waybar.top #window {
+    font-weight: 900;
+    color: #80FF80;
+}
+
+window#waybar.top #workspaces {
+    margin: 0px;
+    padding: 0px;
+}
+
+#workspaces button {
+    color: rgba(135, 129, 180, 1);
+    padding: 4px;
+    margin-bottom: 2px;
+}
+
+#workspaces button:hover {
+    box-shadow: none;
+    background: rgba(45, 43, 60, 1);
+    text-shadow: none;
+}
+
+#workspaces button.active {
+    color: rgba(255, 0, 0, 1);
+    font-family: ZedMono Nerd Font;
+    font-weight: bolder;
+}

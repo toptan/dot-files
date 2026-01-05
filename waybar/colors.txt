@@ -1,0 +1,7 @@
+Sith Lord Darth Vader Color Palette
+
+#000000
+#242424 - (36,36,36)
+#dfdfdf - (223,223,223)
+#ff0000 - (255,0,0)
+#2d2b3c - (45,43,60)

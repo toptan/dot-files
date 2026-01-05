@@ -4,12 +4,14 @@
 # ]
 
 [font]
-size = 13
+size = 16
 
 [font.normal]
 # family = "Iosevka Nerd Font"
-family = "JetBrainsMono Nerd Font"
-# style = "Regular"
+# family = "JetBrainsMono Nerd Font"
+# family = "Terminess Nerd Font"
+family = "Zed Mono Nerd Font"
+style = "Regular"
 
 # [font.italic]
 # style = "Medium Oblique"

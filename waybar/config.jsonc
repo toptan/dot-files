@@ -1,8 +1,16 @@
 {
   "layer": "top",
+  "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["memory", "cpu", "network", "keyboard-state", "clock"],
+  "modules-right": [
+    "tray",
+    "hyprland/language",
+    "memory",
+    "cpu",
+    "network",
+    "clock",
+  ],
 
   "hyprland/window": {
     "max-length": 50,
@@ -17,23 +25,18 @@
   },
   "network": {
     // "interface": "wlp2*", // (Optional) To force the use of this interface
-    "format-wifi": "{essid} ({signalStrength}%) ",
-    "format-ethernet": "{ipaddr}/{cidr} ",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
-  },
-  "keyboard-state": {
-    "numlock": true,
-    "capslock": true,
-    "format": "{name} {icon}",
-    "format-icons": {
-      "locked": "",
-      "unlocked": "",
-    },
+    "format-wifi": "{essid} ({signalStrength}%)  ",
+    "format-ethernet": "{ipaddr}/{cidr}  ",
+    "tooltip-format": "{ifname} via {gwaddr}  ",
+    "format-linked": "{ifname} (No IP)  ",
+    "format-disconnected": "Disconnected ⚠ ",
+    "format-alt": "{ifname}: {ipaddr}/{cidr} ",
   },
   "clock": {
+    "format": "{:%H:%M %d.%m.%Y.}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  },
+  "tray": {
+    "spacing": 10,
   },
 }
