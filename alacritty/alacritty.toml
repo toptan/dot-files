@@ -1,10 +1,10 @@
-# [general]
-# import = [
-#   "~/.config/alacritty/tokyo_night_enhanced.toml",
-# ]
+[general]
+import = [
+  "~/.config/alacritty/ayu-theme.toml",
+]
 
 [font]
-size = 16
+size = 12
 
 [font.normal]
 # family = "Iosevka Nerd Font"
