@@ -72,6 +72,7 @@ window#waybar.top #workspaces {
 
 #workspaces button.active {
     color: rgba(251, 89, 68, 1);
+    border-bottom: 2px solid rgba(251, 89, 68, 1);
     font-family: ZedMono Nerd Font;
     font-weight: bolder;
 }
