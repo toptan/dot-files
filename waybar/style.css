@@ -8,9 +8,9 @@
 }
 
 window#waybar {
-    background: rgba(45, 43, 60, 0.75);
-    border-bottom: 2px solid rgba(255, 0, 0, 0.25);
-    color: #dfdfdf;
+    background: rgba(28, 28, 28, 0.75);
+    border-bottom: 2px solid rgba(131, 165, 152, 0.35);
+    color: #ebdbb2;
 }
 
 box.module {
@@ -19,38 +19,38 @@ box.module {
 }
 
 #clock {
-    background: rgba(45, 43, 60, 0.75);
+    background: rgba(60, 56, 54, 0.75);
     padding: 0px 10px;
     margin-bottom: 2px;
 }
 
 #network {
-    background: rgba(68, 65, 90, 0.75);
+    background: rgba(80, 73, 69, 0.75);
     padding: 0px 10px;
     margin-bottom: 2px;
 }
 
 #cpu, #memory {
-    background: rgba(45, 43, 60, 0.75);
+    background: rgba(60, 56, 54, 0.75);
     padding: 0px 10px;
     margin-bottom: 2px;
 }
 
 #language {
-    background: rgba(68, 65, 90, 0.75);
+    background: rgba(80, 73, 69, 0.75);
     padding: 0px 10px;
     margin-bottom: 2px;
 }
 
 #tray {
-    background: rgba(45, 43, 60, 0.75);
+    background: rgba(60, 56, 54, 0.75);
     padding: 0px 10px;
     margin-bottom: 2px;
 }
 
 window#waybar.top #window {
     font-weight: 900;
-    color: #80FF80;
+    color: #fe8019;
 }
 
 window#waybar.top #workspaces {
@@ -59,19 +59,19 @@ window#waybar.top #workspaces {
 }
 
 #workspaces button {
-    color: rgba(135, 129, 180, 1);
+    color: rgba(146, 131, 116, 1);
     padding: 2px;
     margin-bottom: 2px;
 }
 
 #workspaces button:hover {
     box-shadow: none;
-    background: rgba(45, 43, 60, 1);
+    background: rgba(80, 73, 69, 1);
     text-shadow: none;
 }
 
 #workspaces button.active {
-    color: rgba(255, 0, 0, 1);
+    color: rgba(251, 89, 68, 1);
     font-family: ZedMono Nerd Font;
     font-weight: bolder;
 }
