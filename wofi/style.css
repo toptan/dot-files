@@ -1,0 +1,47 @@
+/* retroplus (retrobox dark), matching ~/.config/nvim/colors/retroplus.lua */
+
+window {
+    background-color: rgba(28, 28, 28, 0.95);
+    color: #ebdbb2;
+    border: 1px solid #7c6f64;
+    border-radius: 10px;
+}
+
+#input {
+    background-color: rgba(60, 56, 54, 0.6);
+    color: #ebdbb2;
+    border: none;
+    margin: 5px;
+    padding: 4px 8px;
+}
+
+#inner-box {
+    margin: 5px;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    color: #ebdbb2;
+}
+
+#entry {
+    padding: 4px;
+}
+
+#entry:selected {
+    background-color: rgba(80, 73, 69, 0.75);
+    border-radius: 4px;
+}
+
+#entry:selected #text {
+    color: #fb5944;
+}
