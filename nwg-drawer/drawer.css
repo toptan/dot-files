@@ -1,11 +1,11 @@
 window {
-    background-color: rgba(36, 47, 79, 0.95);
-    color: #eeeeee
+    background-color: rgba(28, 28, 28, 0.95);
+    color: #ebdbb2
 }
 
 /* search entry */
 entry {
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(60, 56, 54, 0.4)
 }
 
 button, image {
@@ -14,7 +14,7 @@ button, image {
 }
 
 button:hover {
-    background-color: rgba(255, 255, 255, 0.1)
+    background-color: rgba(80, 73, 69, 0.75)
 }
 
 /* in case you wanted to give category buttons a different look */
@@ -24,12 +24,12 @@ button:hover {
 
 #pinned-box {
     padding-bottom: 5px;
-    border-bottom: 1px dotted gray
+    border-bottom: 1px dotted #7c6f64
 }
 
 #files-box {
     padding: 5px;
-    border: 1px dotted gray;
+    border: 1px dotted #7c6f64;
     border-radius: 15px
 }
 
