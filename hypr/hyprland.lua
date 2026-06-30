@@ -10,7 +10,7 @@ hl.monitor({
     output = "HDMI-A-1",
     mode = "3840x2160",
     position = "0x0",
-    scale = 1.5,
+    scale = 2,
 })
 
 hl.config({

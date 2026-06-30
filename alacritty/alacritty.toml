@@ -7,9 +7,6 @@ import = [
 size = 12
 
 [font.normal]
-# family = "Iosevka Nerd Font"
-# family = "JetBrainsMono Nerd Font"
-# family = "Terminess Nerd Font"
 family = "Zed Mono Nerd Font"
 style = "Regular"
 
@@ -29,3 +26,8 @@ history = 10000
 opacity = 1
 startup_mode = "Maximized"
 option_as_alt = "Both"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"

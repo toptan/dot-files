@@ -1,5 +1,5 @@
 [global]
 frame_width = 1
 offset = (10, 10)
-font = "JetBrainsMono Nerd Font 10"
+font = "Zed Mono Nerd Font 10"
 timeout = 5
