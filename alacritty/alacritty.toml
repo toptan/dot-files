@@ -1,6 +1,6 @@
 [general]
 import = [
-  "~/.config/alacritty/ayu-theme.toml",
+  "~/.config/alacritty/retroplus-theme.toml",
 ]
 
 [font]
